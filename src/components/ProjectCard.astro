@@ -1,0 +1,11 @@
+---
+const { projects } = Astro.props;
+---
+
+<main
+  class="atropos flex flex-col bg-headerColor backdrop-blur-md bg-opacity-20 rounded-xl border-2 border-borderWindow hover:shadow-pink-500/10 hover:border-pink-500/10"
+>
+  <img class="m-4 rounded-xl" src={projects.image} alt="" />
+  <h3 class="m-4 text-xl font-bold text-white">{projects.title}</h3>
+  <p class="mt-1 text-sm text-gray-300">{projects.description}</p>
+</main>

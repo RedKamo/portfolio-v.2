@@ -1,57 +1,39 @@
 {
-  "Icons": [
-    {
-      "name": "HTML",
-      "icon": "html5"
-    },
-    {
-      "name": "CSS3",
-      "icon": "css3"
-    },
-    {
-      "name": "React",
-      "icon": "react"
-    },
-    {
-      "name": "SASS",
-      "icon": "sass"
-    }
-  ],
   "projects": [
     {
-      "title": "Weather App",
+      "title": "Testing project title ",
       "description": "Basic weather api using openWeather API",
-      "image": "#",
+      "image": "https://picsum.photos/seed/picsum/300",
       "link": "https://redkamo.github.io/weather-app/"
     },
     {
       "title": "Weather App",
       "description": "Basic weather api using openWeather API",
-      "image": "#",
+      "image": "https://picsum.photos/seed/picsum/300",
       "link": "https://redkamo.github.io/weather-app/"
     },
     {
       "title": "Weather App",
       "description": "Basic weather api using openWeather API",
-      "image": "#",
+      "image": "https://picsum.photos/seed/picsum/300",
       "link": "https://redkamo.github.io/weather-app/"
     },
     {
       "title": "Weather App",
       "description": "Basic weather api using openWeather API",
-      "image": "#",
+      "image": "https://picsum.photos/seed/picsum/300",
       "link": "https://redkamo.github.io/weather-app/"
     },
     {
       "title": "Weather App",
       "description": "Basic weather api using openWeather API",
-      "image": "#",
+      "image": "https://picsum.photos/seed/picsum/300",
       "link": "https://redkamo.github.io/weather-app/"
     },
     {
       "title": "Weather App",
       "description": "Basic weather api using openWeather API",
-      "image": "#",
+      "image": "https://picsum.photos/seed/picsum/300",
       "link": "https://redkamo.github.io/weather-app/"
     }
   ]
