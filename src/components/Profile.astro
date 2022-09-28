@@ -1,16 +1,10 @@
 ---
 import ProfileImage from "../assets/astro-profile.png";
 import QR from "../assets/qr.png";
-import {
-  SiCss3,
-  SiHtml5,
-  SiJavascript,
-  SiSass,
-  SiFigma,
-  SiReact,
-  SiGit,
-} from "react-icons/si";
-import { HiFire } from "react-icons/hi";
+import { Icon } from 'astro-icon'
+import Skills from './Skills.astro'
+import Techs from './Techs.astro'
+import {technologies, interests} from '../data/data.json'
 ---
 
 <main class="pb-20">
@@ -54,51 +48,19 @@ import { HiFire } from "react-icons/hi";
           <article class="font-bold">
             <h4 class="bg-headerColor p-2 text-white">Abilities:</h4>
             <ul
-              class="border-2 p-2 border-borderWindow grid grid-cols-2 content-center gap-4"
+              class="border-2  border-borderWindow grid grid-cols-2 content-center "
             >
-              <li class="text-orange-100 flex items-center space-x-2">
-                <SiHtml5 />
-                <span>HTML</span>
-              </li>
-              <li class="text-blue-500 flex items-center space-x-2">
-                <SiCss3 />
-                <span>CSS</span>
-              </li>
-              <li class="text-yellow-400 flex items-center space-x-2">
-                <SiJavascript />
-                <span>JS</span>
-              </li>
-              <li class="text-rose-400 flex items-center space-x-2">
-                <SiSass size="1rem" />
-                <span>SASS</span>
-              </li>
-              <li class="flex items-center text-green-500 space-x-2">
-                <SiFigma size="1rem" color="green" />
-                <span>Figma</span>
-              </li>
-              <li class="text-orange-600 flex items-center space-x-2">
-                <HiFire size="1rem" />
-                <span>Astro</span>
-              </li>
-              <li class="text-blue-500 flex items-center space-x-2">
-                <SiReact size="1rem" />
-                <span>Reactjs</span>
-              </li>
-              <li class="text-orange-400 flex items-center space-x-2">
-                <SiGit size="1rem" />
-                <span>Git</span>
-              </li>
+            {technologies.map(technologie=> (
+              <Skills {...technologie}/>
+            ))}
             </ul>
           </article>
           <article class="">
             <h4 class="bg-headerColor p-2 text-white">Areas of interest</h4>
-            <ul class="border-2 p-2 border-borderWindow">
-              <li>AI</li>
-              <li>UI/UX</li>
-              <li>A11y</li>
-              <li>Web3</li>
-              <li>Astronomy</li>
-              <li>AR/VR</li>
+            <ul class="border-2 p-2 border-borderWindow grid grid-cols-2 content-center">
+              {interests.map(item => (
+                <Techs {...item}/>
+              ))}
             </ul>
           </article>
           <article class="">

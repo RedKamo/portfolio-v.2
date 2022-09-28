@@ -1,4 +1,72 @@
 {
+  "technologies": [
+    {
+      "logo":"vscode-icons:file-type-html",
+      "text":"HTML"
+    },
+    {
+      "logo":"vscode-icons:file-type-css",
+      "text":"CSS"
+    },
+    {
+      "logo":"logos:javascript",
+      "text":"JS"
+    },
+    {
+      "logo":"logos:figma",
+      "text":"Figma"
+    },
+    {
+      "logo":"vscode-icons:file-type-reactjs",
+      "text":"Reactjs"
+    },
+    {
+      "logo":"vscode-icons:file-type-sass",
+      "text":"SASS"
+    },
+    {
+      "logo":"vscode-icons:file-type-astro",
+      "text":"Astro"
+    },
+    {
+      "logo":"vscode-icons:file-type-git",
+      "text":"Git"
+    },
+    {
+      "logo":"vscode-icons:file-type-tailwind",
+      "text":"Tailwind"
+    },
+    {
+      "logo":"vscode-icons:file-type-vite",
+      "text":"Vite"
+    }
+  ],
+  "interests": [
+    {
+      "logo": "twemoji:file-folder",
+      "text": "AI"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "UI/UX"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "A11y"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "Web3"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "Astronomy"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "AR/VR"
+    }
+  ],
   "projects": [
     {
       "title": "Testing project title ",

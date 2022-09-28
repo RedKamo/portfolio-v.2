@@ -34,7 +34,8 @@ module.exports = {
     },
     fontFamily: {
       customFont: ["Space Mono", "monospace"],
-      bella: ["Bellefair", "serif"],
+      grot: ['Space Grotesk', 'sans-serif'],
+      sora: ["Sora", "sans-serif"],
     },
   },
   plugins: [],
