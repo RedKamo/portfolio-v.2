@@ -1,52 +1,11 @@
 ---
 import ProjectCard from "./ProjectCard.astro";
 import { projects } from "../data/data.json";
-
-/* const projects = [
-  {
-    title: "Testeando project title ",
-    description: "Basic weather api using openWeather API",
-    image: "https://picsum.photos/seed/picsum/300",
-    link: "https://redkamo.github.io/weather-app/",
-  },
-  {
-    title: "Weather App",
-    description: "Basic weather api using openWeather API",
-    image: "https://picsum.photos/seed/picsum/300",
-    link: "https://redkamo.github.io/weather-app/",
-  },
-  {
-    title: "Weather App",
-    description: "Basic weather api using openWeather API",
-    image: "https://picsum.photos/seed/picsum/300",
-    link: "https://redkamo.github.io/weather-app/",
-  },
-  {
-    title: "Weather App",
-    description: "Basic weather api using openWeather API",
-    image: "https://picsum.photos/seed/picsum/300",
-    link: "https://redkamo.github.io/weather-app/",
-  },
-  {
-    title: "Weather App",
-    description: "Basic weather api using openWeather API",
-    image: "https://picsum.photos/seed/picsum/300",
-    link: "https://redkamo.github.io/weather-app/",
-  },
-  {
-    title: "Weather App",
-    description: "Basic weather api using openWeather API",
-    image: "https://picsum.photos/seed/picsum/300",
-    link: "https://redkamo.github.io/weather-app/",
-  },
-]; */
 ---
 
 <main class="pt-20">
   <h1 class="text-center text-5xl font-bold">Projects</h1>
-  <section
-    class="grid grid-cols-1 gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3 p-8"
-  >
+  <section class="grid grid-cols-1 gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3 p-8">
     {
       projects.map((project, index) => (
         <ProjectCard key={index} projects={project} />
