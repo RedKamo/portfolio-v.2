@@ -2,8 +2,8 @@
 import HeroImage from "../assets/hero_image.png";
 ---
 
-<main class="flex h-screen items-center">
-  <section class="text-textColor w-1/2">
+<main class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-2  place-content-center justify-items-center items-center lg:h-screen " >
+  <section class="text-textColor p-8 ">
     <h1 class="text-6xl font-bold">
       Hi, <br /> I'm{" "}
       <span
@@ -17,7 +17,7 @@ import HeroImage from "../assets/hero_image.png";
       who specializes in creating beautiful and user-friendly interfaces. pháp quy định
     </p>
   </section>
-  <section class="flex justify-center w-1/2">
+  <section class=" items-center hidden md:block lg:block">
     <img src={HeroImage} alt="" />
   </section>
 </main>

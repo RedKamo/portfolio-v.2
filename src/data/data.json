@@ -48,7 +48,7 @@
     },
     {
       "logo": "twemoji:file-folder",
-      "text": "UI/UX"
+      "text": "UI"
     },
     {
       "logo": "twemoji:file-folder",
@@ -64,7 +64,15 @@
     },
     {
       "logo": "twemoji:file-folder",
-      "text": "AR/VR"
+      "text": "AR"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "VR"
+    },
+    {
+      "logo": "twemoji:file-folder",
+      "text": "UX"
     }
   ],
   "projects": [
