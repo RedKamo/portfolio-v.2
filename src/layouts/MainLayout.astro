@@ -1,19 +1,22 @@
-<html lang="es">
+---
+import  Navbar  from "../components/Navbar.astro";
+import ButtonTop from '../components/ButtonTop.astro'
+---
+
+<html lang="es" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
-    <title>Mi website de Astro</title>
+    <title>👨🏽‍🚀 Casuarez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body
     class=" font-sora bg-home-background bg-cover bg-no-repeat max-w-[1180px] m-auto"
   >
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Posts</a>
-      <a href="#">Contact</a>
-    </nav>
+    <Navbar />
     <article>
       <slot />
     </article>
+<ButtonTop/>
   </body>
 </html>
+
