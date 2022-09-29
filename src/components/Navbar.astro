@@ -12,15 +12,13 @@ const navItems = [
     <img class="w-20" src={Logo} alt="">
   </a>
   <section>
-    <ul class=" flex justify-center gap-4 text-white cursor-pointer">
+    <ul class=" flex justify-center gap-4 text-white cursor-pointer font-bold">
       {navItems.map(({title, url}) => (
         <li>
-          <a class="bg-gradient-to-r from-yellow-200 to-yellow-200
-      bg-no-repeat [background-position:0_88%]
-      [background-size:100%_0.2em]
-      motion-safe:transition-all motion-safe:duration-200
-      hover:[background-size:100%_100%]
-      focus:[background-size:100%_100%]" href={url}>{title}</a></li>
+          <a class=" bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 animate-text
+      
+      
+      " href={url}>{title}</a></li>
       ))}
     </ul>
   </section>

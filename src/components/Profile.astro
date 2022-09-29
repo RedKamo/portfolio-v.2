@@ -89,7 +89,7 @@ import {technologies, interests} from '../data/data.json'
     position: relative;
     display: block;
     perspective: 1600px;
-    transform: translate3d(0, 0, 0)
+    transform: translate3d(22, 0, 0)
   }
   .atropos-rotate-scroll-x,
   .atropos-rotate-scroll-y,
@@ -170,6 +170,12 @@ import {technologies, interests} from '../data/data.json'
   [data-atropos-offset][data-atropos-opacity] {
     transition-property: transform, opacity
   }
+
+  @media (max-width: 600px) {
+  .atropos{
+    perspective: 2200px;
+  }
+}
 </style>
 
 <script type="module">
