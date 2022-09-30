@@ -8,13 +8,13 @@ import Techs from './Techs.astro'
 import {technologies, interests} from '../data/data.json'
 ---
 
-<div class="atropos " id="Profile">
-  <div class="atropos-scale">
+<div class="atropos py-20 mx-8 lg:p-8 " id="Profile">
+  <div class="atropos-scale ">
   <div class="atropos-rotate">
    <div class="atropos-inner transition-all duration-700 relative">
     <div class="atropos-inner transition-all duration-700 relative">
       
-<div class="pb-20 p-8">
+<div class="">
   <section
     class="border-x-2 border-t-2 border-borderWindow flex items-center bg-headerColor h-12 rounded-t-xl"
   >
@@ -89,7 +89,7 @@ import {technologies, interests} from '../data/data.json'
     position: relative;
     display: block;
     perspective: 1600px;
-    transform: translate3d(22, 0, 0)
+    transform: translate3d(0, 0, 0)
   }
   .atropos-rotate-scroll-x,
   .atropos-rotate-scroll-y,
@@ -173,7 +173,8 @@ import {technologies, interests} from '../data/data.json'
 
   @media (max-width: 600px) {
   .atropos{
-    perspective: 2200px;
+    perspective: 2600px;
+    transform: translate3d(22, 20, 100)
   }
 }
 </style>
@@ -185,7 +186,7 @@ import {technologies, interests} from '../data/data.json'
   /* eslint-enable */
   window.Atropos({
     el: '.atropos',
-    activeOffset: 120,
+    activeOffset: 10,
     shadowScale: 5
   })
 </script>

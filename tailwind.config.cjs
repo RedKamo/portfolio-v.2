@@ -29,7 +29,8 @@ module.exports = {
         'regal-blue': "#243c5a",
         'color-1': "#86efac",
         'color-2': "#3b82f6",
-        'color-3': "#9333ea"
+        'color-3': "#9333ea",
+        'colorProfile': "#3ec6a9"
       },
     },
     fontFamily: {
