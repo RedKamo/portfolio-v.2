@@ -77,22 +77,70 @@
   ],
   "projects": [
     {
-      "title": "Testing project title ",
-      "description": "Basic weather api using openWeather API",
+      "title": "Newspaper App ",
+      "description": "'NewsApp' project, using two different APIs to display different daily news.",
       "image": "https://picsum.photos/seed/picsum/300",
-      "link": "https://redkamo.github.io/weather-app/"
+      "link": "https://redkamo.github.io/weather-app/",
+      "stacks": [
+        {"logo": "vscode-icons:file-type-reactjs",
+         "text": "Reactjs"
+        },
+        {
+          "logo": "vscode-icons:file-type-sass",
+          "text": "SASS"
+        },
+        {
+          "logo": "vscode-icons:folder-type-api",
+          "text": "Api"
+        },
+        {
+          "logo": "vscode-icons:file-type-vite",
+          "text": "Vite"
+        }
+
+      ]
     },
     {
       "title": "Weather App",
-      "description": "Basic weather api using openWeather API",
+      "description": "Real time weather App.",
       "image": "https://picsum.photos/seed/picsum/300",
-      "link": "https://redkamo.github.io/weather-app/"
+      "link": "https://redkamo.github.io/weather-app/",
+      "stacks": [
+        {"logo": "vscode-icons:file-type-reactjs",
+         "text": "Reactjs"
+        },
+        {
+          "logo": "vscode-icons:file-type-tailwind",
+          "text": "Tailwind"
+        },
+        {
+          "logo": "vscode-icons:folder-type-api",
+          "text": "Api"
+        },
+        {
+          "logo": "vscode-icons:file-type-vite",
+          "text": "Vite"
+        }
+      ]
     },
     {
-      "title": "Weather App",
-      "description": "Basic weather api using openWeather API",
+      "title": "Space Landing",
+      "description": "Space Responsive Landing Page",
       "image": "https://picsum.photos/seed/picsum/300",
-      "link": "https://redkamo.github.io/weather-app/"
+      "link": "https://redkamo.github.io/weather-app/",
+      "stacks": [
+        {"logo": "vscode-icons:file-type-reactjs",
+         "text": "Reactjs"
+        },
+        {
+          "logo": "vscode-icons:file-type-tailwind",
+          "text": "Tailwind"
+        },
+        {
+          "logo": "vscode-icons:file-type-vite",
+          "text": "Vite"
+        }
+      ]
     },
     {
       "title": "Weather App",
