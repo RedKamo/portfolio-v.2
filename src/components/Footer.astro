@@ -1,0 +1,14 @@
+---
+import { social} from "../data/data.json";
+import {Icon} from 'astro-icon'
+---
+
+
+<footer class=" border-t-2 border-borderWindow mx-auto flex flex-col md:flex-row  justify-between min-h-20 items-center px-10 py-6 text-slate-100">
+    <p class="pb-2">Developed by <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 animate-text font-bold">Camilo Suarez</span>.</p>
+    <section class="flex">
+        {social.map(item => (
+            <a target="_blank" class="" href={item.link}><Icon name={item.logo} class="w-10 p-1 hover:text-pink-500" title={item.text} /></a>
+        ))}
+    </section>
+  </footer>

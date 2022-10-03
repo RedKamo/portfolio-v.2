@@ -1,4 +1,21 @@
 {
+  "social": [
+    {
+      "link": "https://www.linkedin.com/in/camiloasuarez/",
+      "logo": "mdi:linkedin",
+      "text": "Linkedin"
+    },
+    {
+      "link": "https://twitter.com/RedKamo_",
+      "logo": "mdi:github",
+      "text": "Github"
+    },
+    {
+      "link": "https://github.com/RedKamo",
+      "logo": "mdi:twitter",
+      "text": "Twitter"
+    }
+  ],
   "technologies": [
     {
       "logo":"vscode-icons:file-type-html",
