@@ -48,7 +48,7 @@
     },
     {
       "logo": "twemoji:file-folder",
-      "text": "UI"
+      "text": "UI/UX"
     },
     {
       "logo": "twemoji:file-folder",
@@ -60,27 +60,16 @@
     },
     {
       "logo": "twemoji:file-folder",
-      "text": "Astronomy"
-    },
-    {
-      "logo": "twemoji:file-folder",
-      "text": "AR"
-    },
-    {
-      "logo": "twemoji:file-folder",
-      "text": "VR"
-    },
-    {
-      "logo": "twemoji:file-folder",
-      "text": "UX"
+      "text": "AR/VR"
     }
   ],
   "projects": [
     {
       "title": "Newspaper App ",
       "description": "'NewsApp' project, using two different APIs to display different daily news.",
-      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/NewsApp.png",
-      "link": "https://redkamo.github.io/weather-app/",
+      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/NewApp.png",
+      "logo": "vscode-icons:file-type-css",
+      "link": "https://github.com/RedKamo/newsapp",
       "stacks": [
         {"logo": "vscode-icons:file-type-reactjs",
          "text": "Reactjs"
@@ -102,7 +91,7 @@
     },
     {
       "title": "Weather App",
-      "description": "Real time weather App.",
+      "description": "Weather app allows users to search for a city and see the current weather conditions.",
       "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/weatherApp.png",
       "link": "https://redkamo.github.io/weather-app/",
       "stacks": [
@@ -125,9 +114,9 @@
     },
     {
       "title": "Space Landing",
-      "description": "Space Responsive Landing Page",
+      "description": "Responsive landing page, (frontendmentor challenge).",
       "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/SpaceLanding.png",
-      "link": "https://redkamo.github.io/weather-app/",
+      "link": "https://github.com/RedKamo/space-landing",
       "stacks": [
         {"logo": "vscode-icons:file-type-reactjs",
          "text": "Reactjs"
