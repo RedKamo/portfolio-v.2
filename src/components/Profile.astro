@@ -1,7 +1,5 @@
 ---
-import ProfileImage from "../assets/astro-profile.png";
 import Profile2 from '../assets/pro2.png';
-import QR from "../assets/qr.png";
 import { Icon } from 'astro-icon'
 import Skills from './Skills.astro'
 import Techs from './Techs.astro'
@@ -21,14 +19,14 @@ import {technologies, interests} from '../data/data.json'
     <h1 class="text-lg text-textColor pl-6" data-atropos-offset="2">Astrodev's profile</h1>
   </section>
   <section
-    class=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 backdrop-blur-md bg-windowColor bg-opacity-20 rounded-b-xl border-x-2 border-b-2 border-borderWindow"
+    class=" grid grid-cols-1  lg:grid-cols-3 backdrop-blur-md bg-windowColor bg-opacity-20 rounded-b-xl border-x-2 border-b-2 border-borderWindow"
   >
     <section
       class="col-span-1 backdrop-blur-md bg-windowColor bg-opacity-20 border-r-2 border-r-borderWindow"
     >
-      <article class="bg-headerColor m-4 rounded-xl" data-atropos-offset="1">
+      <article class="flex items-center h-[490px] justify-center bg-headerColor  m-4 rounded-xl" data-atropos-offset="1">
         <img
-          class="object-cover h-[470px] rounded-br-xl"
+          class="object-contain  rounded-br-xl"
           src={Profile2}
           alt=""
           data-atropos-offset="3"
