@@ -79,7 +79,7 @@
     {
       "title": "Newspaper App ",
       "description": "'NewsApp' project, using two different APIs to display different daily news.",
-      "image": "https://picsum.photos/seed/picsum/300",
+      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/weatherApp.png",
       "link": "https://redkamo.github.io/weather-app/",
       "stacks": [
         {"logo": "vscode-icons:file-type-reactjs",
