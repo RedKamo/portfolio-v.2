@@ -6,56 +6,56 @@
       "text": "Linkedin"
     },
     {
-      "link": "https://twitter.com/RedKamo_",
+      "link": "https://github.com/RedKamo",
       "logo": "mdi:github",
       "text": "Github"
     },
     {
-      "link": "https://github.com/RedKamo",
+      "link": "https://twitter.com/RedKamo_",
       "logo": "mdi:twitter",
       "text": "Twitter"
     }
   ],
   "technologies": [
     {
-      "logo":"vscode-icons:file-type-html",
-      "text":"HTML"
+      "logo": "vscode-icons:file-type-html",
+      "text": "HTML"
     },
     {
-      "logo":"vscode-icons:file-type-css",
-      "text":"CSS"
+      "logo": "vscode-icons:file-type-css",
+      "text": "CSS"
     },
     {
-      "logo":"logos:javascript",
-      "text":"JS"
+      "logo": "logos:javascript",
+      "text": "JS"
     },
     {
-      "logo":"logos:figma",
-      "text":"Figma"
+      "logo": "logos:figma",
+      "text": "Figma"
     },
     {
-      "logo":"vscode-icons:file-type-reactjs",
-      "text":"Reactjs"
+      "logo": "vscode-icons:file-type-reactjs",
+      "text": "Reactjs"
     },
     {
-      "logo":"vscode-icons:file-type-sass",
-      "text":"SASS"
+      "logo": "vscode-icons:file-type-sass",
+      "text": "SASS"
     },
     {
-      "logo":"vscode-icons:file-type-astro",
-      "text":"Astro"
+      "logo": "vscode-icons:file-type-astro",
+      "text": "Astro"
     },
     {
-      "logo":"vscode-icons:file-type-git",
-      "text":"Git"
+      "logo": "vscode-icons:file-type-git",
+      "text": "Git"
     },
     {
-      "logo":"vscode-icons:file-type-tailwind",
-      "text":"Tailwind"
+      "logo": "vscode-icons:file-type-tailwind",
+      "text": "Tailwind"
     },
     {
-      "logo":"vscode-icons:file-type-vite",
-      "text":"Vite"
+      "logo": "vscode-icons:file-type-vite",
+      "text": "Vite"
     }
   ],
   "interests": [
@@ -88,9 +88,7 @@
       "logo": "vscode-icons:file-type-css",
       "link": "https://github.com/RedKamo/newsapp",
       "stacks": [
-        {"logo": "vscode-icons:file-type-reactjs",
-         "text": "Reactjs"
-        },
+        { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
         {
           "logo": "vscode-icons:file-type-sass",
           "text": "SASS"
@@ -103,7 +101,6 @@
           "logo": "vscode-icons:file-type-vite",
           "text": "Vite"
         }
-
       ]
     },
     {
@@ -112,9 +109,7 @@
       "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/weatherApp.png",
       "link": "https://redkamo.github.io/weather-app/",
       "stacks": [
-        {"logo": "vscode-icons:file-type-reactjs",
-         "text": "Reactjs"
-        },
+        { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
         {
           "logo": "vscode-icons:file-type-tailwind",
           "text": "Tailwind"
@@ -135,9 +130,7 @@
       "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/SpaceLanding.png",
       "link": "https://github.com/RedKamo/space-landing",
       "stacks": [
-        {"logo": "vscode-icons:file-type-reactjs",
-         "text": "Reactjs"
-        },
+        { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
         {
           "logo": "vscode-icons:file-type-tailwind",
           "text": "Tailwind"

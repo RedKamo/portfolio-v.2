@@ -12,10 +12,10 @@ const navItems = [
  <section class=" rounded-xl  backdrop-blur-md bg-black bg-opacity-10  p-1">
   <section class=" rounded-lg p-2 bg-headerColor bg-opacity-70 backdrop-blur-md  w-full flex justify-between items-center  ">
     <a href="#home" class="cursor-pointer">
-      <img class="w-10" src={Logo} alt="">
+      <img class="w-8" src={Logo} alt="">
     </a>
-    <section>
-      <ul class=" flex justify-center gap-4 text-colorProfile  cursor-pointer font-bold">
+    <section class=" px-2">
+      <ul class=" flex justify-center gap-4 text-white cursor-pointer ">
         {navItems.map(({title, url}) => (
           <li>
             <a class=" hover:text-emerald-100" href={url}>{title}</a></li>

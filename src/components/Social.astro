@@ -1,0 +1,11 @@
+---
+import {social} from '../data/data.json'
+import {Icon} from 'astro-icon'
+---
+
+
+<main class="flex">
+    {social.map(item=> (
+        <a target="_blank" class="" href={item.link}><Icon name={item.logo} class="w-10 p-1 hover:text-pink-500" title={item.text} /></a>
+    ))}
+</main>
