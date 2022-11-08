@@ -19,7 +19,7 @@ module.exports = {
         },
     },
       backgroundImage: {
-        "home-background": "url('./src/assets/home.png')",
+        "home-background": "url('./home.png')",
       },
       colors: {
         'headerColor': "#1F2022",
