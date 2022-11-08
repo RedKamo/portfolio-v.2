@@ -140,24 +140,6 @@
           "text": "Vite"
         }
       ]
-    },
-    {
-      "title": "Weather App",
-      "description": "Basic weather api using openWeather API",
-      "image": "https://picsum.photos/seed/picsum/300",
-      "link": "https://redkamo.github.io/weather-app/"
-    },
-    {
-      "title": "Weather App",
-      "description": "Basic weather api using openWeather API",
-      "image": "https://picsum.photos/seed/picsum/300",
-      "link": "https://redkamo.github.io/weather-app/"
-    },
-    {
-      "title": "Weather App",
-      "description": "Basic weather api using openWeather API",
-      "image": "https://picsum.photos/seed/picsum/300",
-      "link": "https://redkamo.github.io/weather-app/"
     }
   ]
 }
