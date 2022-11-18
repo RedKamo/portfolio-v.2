@@ -82,6 +82,23 @@
   ],
   "projects": [
     {
+      "title": "Notes App",
+      "description": "A web based notes app. support markdown.",
+      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/SpaceLanding.png",
+      "link": "https://github.com/RedKamo/Notes-taker",
+      "stacks": [
+        { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
+        {
+          "logo": "vscode-icons:file-type-tailwind",
+          "text": "Tailwind"
+        },
+        {
+          "logo": "vscode-icons:file-type-vite",
+          "text": "Vite"
+        }
+      ]
+    },
+    {
       "title": "Newspaper App ",
       "description": "'NewsApp' project, using two different APIs to display different daily news.",
       "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/NewApp.png",
@@ -117,6 +134,23 @@
         {
           "logo": "vscode-icons:folder-type-api",
           "text": "Api"
+        },
+        {
+          "logo": "vscode-icons:file-type-vite",
+          "text": "Vite"
+        }
+      ]
+    },
+    {
+      "title": "E-learning page",
+      "description": "A personal web for an e-learning platform.",
+      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/SpaceLanding.png",
+      "link": "https://github.com/RedKamo/Notes-taker",
+      "stacks": [
+        { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
+        {
+          "logo": "vscode-icons:file-type-tailwind",
+          "text": "Tailwind"
         },
         {
           "logo": "vscode-icons:file-type-vite",
