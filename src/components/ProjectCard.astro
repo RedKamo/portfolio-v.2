@@ -1,5 +1,6 @@
 ---
 const { project } = Astro.props;
+import { Icon } from 'astro-icon'
 import Stack from './Stack.astro'
 ---
 
@@ -15,8 +16,10 @@ import Stack from './Stack.astro'
       <Stack {...stack} />
     ))}
   </article>
-  <a target="_blank" class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-md group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800" href={project.link}> <span class="relative p-2  transition-all ease-in duration-75 bg-headerColor   rounded-md group-hover:bg-opacity-0">
-    View Source</span></a>
+  <a target="_blank" class=" border-2 border-borderWindow rounded-full m-1 flex flex-row justify-center items-center px-2 hover:border-pink-500" href={project.link}>
+    <Icon name="mdi:github" color="white" class="w-6 p-1 color:white" />
+    <span class="text-sm text-white">Github</span>
+  </a>
   </section>
   </section>
 </main>
