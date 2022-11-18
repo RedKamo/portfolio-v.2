@@ -84,7 +84,7 @@
     {
       "title": "Notes App",
       "description": "A web based notes app. support markdown.",
-      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/SpaceLanding.png",
+      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/notesApp.png",
       "link": "https://github.com/RedKamo/Notes-taker",
       "stacks": [
         { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
@@ -144,8 +144,8 @@
     {
       "title": "E-learning page",
       "description": "A personal web for an e-learning platform.",
-      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/SpaceLanding.png",
-      "link": "https://github.com/RedKamo/Notes-taker",
+      "image": "https://raw.githubusercontent.com/RedKamo/portfolio-v.2/main/src/assets/elearningpage.png",
+      "link": "https://github.com/RedKamo/edupage",
       "stacks": [
         { "logo": "vscode-icons:file-type-reactjs", "text": "Reactjs" },
         {
